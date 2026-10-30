@@ -1,4 +1,4 @@
-const CACHE = 'agro-operacoes-v9-flight-times-20261030';
+const CACHE = 'agro-operacoes-v10-climate-clicks-20261030';
 const CORE = ['./','./index.html','./style.css','./app.js','./modulos.js','./menu.js','./manifest.json'];
 self.addEventListener('install', event => event.waitUntil((async()=>{
   const cache = await caches.open(CACHE);

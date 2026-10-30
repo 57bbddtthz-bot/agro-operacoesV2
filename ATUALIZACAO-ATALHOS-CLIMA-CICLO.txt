@@ -1,0 +1,23 @@
+AGRO OPERACOES - ATALHOS DO PAINEL E DETALHES
+
+Esta atualizacao contem apenas os arquivos alterados:
+- app.js
+- modulos.js
+- sw.js
+
+COMO ATUALIZAR NO GITHUB:
+1. Antes de tudo, exporte um backup dos dados no aplicativo.
+2. Abra o repositorio agro-operacoesV2 no GitHub.
+3. Substitua os tres arquivos acima pelos arquivos desta pasta, mantendo os mesmos nomes e na raiz do repositorio.
+4. Faca Commit changes.
+5. Aguarde a publicacao e abra o app novamente. Feche a aba antiga e abra o link do aplicativo.
+
+O QUE MUDA:
+- O cartao Ciclo medio no painel e no relatorio passa a abrir a tela de voos, na area dos registros e tempos.
+- O painel mostra atalhos clicaveis para velocidade e direcao do vento, umidade relativa do ar, temperatura e possibilidade de chuva.
+- Cada atalho abre Condicoes climaticas, preenche a OS quando ela foi informada e posiciona o cursor no campo correspondente.
+- Os detalhes da OS passam a mostrar as medicoes climaticas vinculadas e atalhos para registrar novas medicoes.
+- A tela de Condicoes climaticas tambem ganha botoes para ir direto a cada campo.
+
+IMPORTANTE:
+Os atalhos levam ao campo de preenchimento de uma nova medicao; eles nao alteram silenciosamente uma medicao antiga. Os dados continuam armazenados localmente neste navegador/aparelho, como na versao atual.

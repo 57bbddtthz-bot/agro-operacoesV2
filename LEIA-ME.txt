@@ -1,0 +1,25 @@
+AGRO OPERAÇÕES — pacote integrado para teste
+
+ARQUIVOS
+- index.html: entrada do aplicativo
+- style.css: layout responsivo para computador e celular
+- app.js: módulos principais e registros operacionais
+- modulos.js: calculadora, produtos/bulas, compatibilidade, clima e pesquisa
+- menu.js: menu de navegação
+- manifest.json e sw.js: instalação como aplicativo web (PWA) e cache offline dos arquivos
+
+ACESSO DEMONSTRATIVO
+- Usuário: guilherme
+- Perfil: Chefe / Administrador principal
+- Senha: 1234
+
+COMO TESTAR
+1. Extraia todos os arquivos do ZIP mantendo-os na mesma pasta.
+2. Publique a pasta em um endereço HTTPS (por exemplo, GitHub Pages ou hospedagem web).
+3. Abra o endereço no celular. No iPhone, use Compartilhar > Adicionar à Tela de Início.
+4. Faça testes com dados fictícios antes de inserir dados reais.
+
+IMPORTANTE
+Esta versão é uma versão integrada para avaliação/teste de campo. Os dados ficam no armazenamento local do navegador deste aparelho. Não há servidor, sincronização entre usuários/aparelhos nem autenticação segura. O login e a senha são demonstrativos; não use como controle de acesso de produção. Faça backups frequentes. O backup geral inclui também produtos, compatibilidade e medições climáticas.
+
+Os avisos climáticos não declaram automaticamente uma aplicação segura. Compare cada medição com a bula vigente, legislação e orientação do responsável técnico. A calculadora apresenta estimativas teóricas e não substitui conferência operacional.

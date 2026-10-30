@@ -1,0 +1,11 @@
+{
+  "name": "AGRO OPERAÇÕES",
+  "short_name": "AGRO OPERAÇÕES",
+  "description": "Gestão de operações agrícolas e aplicação aérea",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f4f7f4",
+  "theme_color": "#174c35",
+  "icons": []
+}

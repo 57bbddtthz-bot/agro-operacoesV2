@@ -13,7 +13,5 @@
  shade.addEventListener('click',e=>{if(e.target===shade)close();});
  shade.querySelectorAll('[data-go]').forEach(b=>b.addEventListener('click',()=>{close();if(window.go)window.go(b.dataset.go)}));
  shade.querySelector('#menuLogout').addEventListener('click',()=>{close();if(window.logout)window.logout()});
- // No menu lateral móvel: as funções adicionais ficam somente no menu de três barras.
- const hideModuleBottom=()=>document.querySelectorAll('#mobileNav [data-page]').forEach(b=>b.remove());
- new MutationObserver(hideModuleBottom).observe(document.getElementById('mobileNav'),{childList:true});setTimeout(hideModuleBottom,250);
+ // Não altera a navegação inferior do celular; evita ciclos de atualização do DOM.
 })();

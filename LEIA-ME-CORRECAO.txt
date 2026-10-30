@@ -1,0 +1,11 @@
+AGRO OPERAÇÕES — pacote completo de correção de toque/login
+
+Extraia este ZIP. Envie os arquivos extraídos para a raiz do repositório GitHub, substituindo os arquivos existentes.
+
+Arquivos: index.html, style.css, app.js, modulos.js, menu.js, sw.js e manifest.json.
+
+Depois faça Commit changes. Aguarde 2 a 5 minutos e abra o site no Safari. A nova versão do service worker atualiza o cache antigo. Se ainda aparecer a versão antiga, feche todas as abas do site e abra novamente.
+
+Login de demonstração: perfil Chefe / Administrador principal; usuário guilherme; senha 1234.
+
+Aviso: versão de teste; os dados ficam no navegador deste aparelho e o login não é segurança de produção.

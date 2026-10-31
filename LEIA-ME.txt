@@ -23,3 +23,7 @@ IMPORTANTE
 Esta versão é uma versão integrada para avaliação/teste de campo. Os dados ficam no armazenamento local do navegador deste aparelho. Não há servidor, sincronização entre usuários/aparelhos nem autenticação segura. O login e a senha são demonstrativos; não use como controle de acesso de produção. Faça backups frequentes. O backup geral inclui também produtos, compatibilidade e medições climáticas.
 
 Os avisos climáticos não declaram automaticamente uma aplicação segura. Compare cada medição com a bula vigente, legislação e orientação do responsável técnico. A calculadora apresenta estimativas teóricas e não substitui conferência operacional.
+
+Atualização: a lista de culturas da Ordem de Serviço inclui também Eucalipto.
+
+Atualização: a Ordem de Serviço permite cadastrar vários produtos, cada um com dose numérica, unidade e finalidade (herbicida, inseticida, fungicida, adubo foliar, adjuvante ou outros), com edição e exclusão individual.

@@ -15,3 +15,7 @@ IMPORTANTE:
 - Os tempos médios só consideram os registros de voo em que os minutos foram preenchidos. Voos antigos sem esses campos não entram nas médias.
 - O total de voos considera os números lançados nas OS.
 - Para publicar, substitua os arquivos do repositório pelos arquivos deste pacote e faça Commit changes.
+
+Atualização: a lista de culturas da Ordem de Serviço inclui também Eucalipto.
+
+Atualização: a Ordem de Serviço permite cadastrar vários produtos, cada um com dose numérica, unidade e finalidade (herbicida, inseticida, fungicida, adubo foliar, adjuvante ou outros), com edição e exclusão individual.

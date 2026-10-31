@@ -27,3 +27,7 @@ Os avisos climáticos não declaram automaticamente uma aplicação segura. Comp
 Atualização: a lista de culturas da Ordem de Serviço inclui também Eucalipto.
 
 Atualização: a Ordem de Serviço permite cadastrar vários produtos, cada um com dose numérica, unidade e finalidade (herbicida, inseticida, fungicida, adubo foliar, adjuvante ou outros), com edição e exclusão individual.
+
+
+ATUALIZAÇÃO — CATÁLOGO DE PRODUTOS (31/10/2026)
+Ao adicionar um produto em uma OS, o aplicativo salva automaticamente seu nome, dose, unidade e finalidade no catálogo local deste aparelho. Nas próximas OS, basta digitar ou selecionar o nome salvo para preencher automaticamente os demais campos. Os dados permanecem no navegador deste aparelho e entram no backup geral. Se a dose mudar para uma aplicação específica, ajuste antes de adicionar o produto; o catálogo passa a guardar os dados usados mais recentemente para aquele nome.

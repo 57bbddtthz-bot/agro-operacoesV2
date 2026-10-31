@@ -1,0 +1,9 @@
+ATUALIZAÇÃO DO CATÁLOGO DE PRODUTOS
+
+O catálogo agora guarda somente o nome do produto para reutilização nas próximas Ordens de Serviço.
+
+Ao selecionar um produto já cadastrado, somente o nome é recuperado. A dose, unidade e finalidade devem ser informadas em cada OS e ficam salvas naquela OS específica. Alterar a dose em uma OS não altera registros de outras OS.
+
+As informações de data da aplicação, culturas, produtos ilimitados por OS, voos e condições climáticas permanecem no aplicativo.
+
+Para atualizar, substitua os arquivos da versão anterior pelos arquivos deste pacote. Faça backup dos dados do aplicativo antes de atualizar.

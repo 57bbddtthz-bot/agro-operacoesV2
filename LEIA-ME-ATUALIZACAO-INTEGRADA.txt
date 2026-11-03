@@ -1,0 +1,15 @@
+AGRO OPERAÇÕES — PACOTE ATUALIZADO
+Data: 03/11/2026
+
+Alterações desta versão:
+- Painel mantém o estilo existente e mostra contagens reais dos registros locais: OS em andamento, OS finalizadas, funcionários ativos, hectares registrados, pendências e voos.
+- OS finalizadas podem ser consultadas pelo indicador do painel.
+- O botão "Adicionar voo" registra voo rápido na OS, soma hectares aplicados e informa o saldo restante; o último voo é limitado ao saldo da OS.
+- Sentido da aplicação predefinido na criação e edição da OS, persistido nos dados da OS.
+- Dados de aplicação na OS: coordenadas da lavoura/talhão, coordenadas da aplicação, hora inicial/final, temperatura, vento, umidade, pH e sentido da aplicação.
+- Sentido da aplicação inclui direções cardeais e diagonais.
+- Direção do vento inicial/final usa opções predefinidas: N, NE, E, SE, S, SO, O, NO, variável e calmo.
+- Cache do navegador atualizado para carregar esta versão.
+
+IMPORTANTE:
+Este ZIP não publica automaticamente no GitHub Pages. Extraia o ZIP e envie/substitua os arquivos na raiz do repositório GitHub Pages. Os registros do protótipo ficam no armazenamento local do aparelho; faça backup antes de limpar dados do navegador.

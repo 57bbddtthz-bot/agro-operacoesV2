@@ -1,0 +1,18 @@
+AGRO OPERAÇÕES — PACOTE INTEGRADO
+
+Este pacote reúne:
+1. Dados de aplicação exibidos dentro dos detalhes da OS: coordenadas da lavoura/talhão e da aplicação, horários inicial/final, temperatura inicial/final, velocidade do vento inicial/final, umidade inicial/final, direção do vento inicial/final, pH da calda, sentido da aplicação, chance de chuva, produto/bula e observações.
+2. Botão “Adicionar voo” na lista e nos detalhes da OS.
+3. O botão adiciona automaticamente os hectares padrão por voo configurados na OS; se não houver valor padrão, solicita os hectares do voo na primeira utilização.
+4. Atualiza o total de hectares aplicados, o saldo restante e a contagem de voos da OS. O último voo é limitado ao saldo que falta aplicar.
+5. O registro do voo fica vinculado à OS e aparece em “Voos vinculados”.
+6. Continua permitindo “Registrar voo com detalhes” para informar tempos e outros dados do voo.
+
+COMO USAR O ADICIONAR VOO
+- Abra Ordens de serviço.
+- Toque em “Adicionar voo (somar hectares)” ou abra os detalhes da OS e toque em “Adicionar voo rápido”.
+- Configure os hectares padrão por voo ao editar a OS, ou informe o valor quando o aplicativo perguntar.
+- Confira os hectares aplicados e o saldo restante nos detalhes da OS.
+
+IMPORTANTE
+Este ZIP foi preparado localmente e ainda precisa ser enviado/substituído no repositório GitHub Pages para atualizar o site publicado. Baixar o ZIP não publica automaticamente as alterações. Os dados deste aplicativo ficam no navegador/aparelho, salvo se for implementada sincronização por servidor.

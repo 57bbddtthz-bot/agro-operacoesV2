@@ -1,0 +1,9 @@
+AGRO OPERAÇÕES — CORREÇÃO DOS DADOS DA APLICAÇÃO NA OS
+
+Esta versão inclui na tela de detalhes de cada Ordem de Serviço a seção “Dados da aplicação desta OS”, que mostra o histórico vinculado ao número da OS.
+
+Campos: coordenadas da lavoura/talhão; coordenadas da aplicação; hora de início e final; temperatura inicial e final; velocidade do vento inicial e final; umidade inicial e final; direção/sentido do vento no início e no final; pH da calda; sentido da aplicação; chance de chuva; produto/bula e observações.
+
+Para registrar: abra a OS > “Registrar / consultar dados da aplicação desta OS” > confira o número da OS preenchido > preencha os campos > “Salvar registro da aplicação”. O registro salvo aparece na própria tela de detalhes da OS.
+
+Para atualizar o site publicado, os arquivos deste ZIP ainda precisam ser enviados ao repositório GitHub Pages. Baixar o ZIP sozinho não publica a atualização.

@@ -1,10 +1,10 @@
-AGRO OPERAÇÕES — pacote completo de correção de toque/login
+AGRO OPERAÇÕES — pacote de correção da tela branca, cache e carregamento dos módulos
 
 Extraia este ZIP. Envie os arquivos extraídos para a raiz do repositório GitHub, substituindo os arquivos existentes.
 
 Arquivos: index.html, style.css, app.js, modulos.js, menu.js, sw.js e manifest.json.
 
-Depois faça Commit changes. Aguarde 2 a 5 minutos e abra o site no Safari. A nova versão do service worker atualiza o cache antigo. Se ainda aparecer a versão antiga, feche todas as abas do site e abra novamente.
+Depois faça Commit changes. Aguarde 2 a 5 minutos e abra o site no Safari. A nova versão do service worker usa cache novo e tenta remover caches antigos. O index.html também mostra uma mensagem se algum arquivo JavaScript falhar ao carregar. Se ainda aparecer a versão antiga, feche todas as abas do site e abra novamente.
 
 Login de demonstração: perfil Chefe / Administrador principal; usuário guilherme; senha 1234.
 

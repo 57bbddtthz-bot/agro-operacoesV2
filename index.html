@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#174c35">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<link rel="manifest" href="manifest.json">
+<title>AGRO OPERAÇÕES</title>
+<link rel="stylesheet" href="style.css?v=20261103correcao-tela-branca1">
+</head>
+<body>
+<div id="login" class="login-wrap"><div class="login-card"><div class="brand-mark">A</div><div class="brand-title">AGRO OPERAÇÕES</div><div class="muted center">Gestão de aplicação aérea</div><h1>Acesse sua conta</h1><label>Perfil de demonstração<select id="loginRole"><option value="chefe">Chefe / Administrador principal</option><option value="admin">Administrador autorizado</option><option value="tecnico">Técnico responsável</option><option value="dosador">Dosador</option></select></label><label>Usuário<input id="loginUser" autocomplete="username" value="guilherme"></label><label>Senha<input id="loginPass" type="password" autocomplete="current-password" value="1234"></label><button class="btn primary full" id="loginBtn">Entrar</button><p class="hint">Protótipo para avaliação. Login demonstrativo: selecione um perfil e use a senha 1234.</p></div><div class="founder">Idealizado e fundado por<br><b>Guilherme Paiao A. Ribeiro</b></div></div>
+<div id="app" class="hidden"><header><div class="brand-mark small">A</div><div class="brand-head"><b>AGRO OPERAÇÕES</b><small id="companyHead">Gestão de aplicação aérea</small></div><span id="rolePill" class="pill green"></span><button class="icon-btn" id="menuToggle" title="Abrir menu" aria-label="Abrir menu">☰</button></header><div class="layout"><aside id="sidebar"></aside><main id="content"></main></div><nav id="mobileNav"></nav></div>
+<script>
+(function(){
+ function showError(message){
+  var box=document.getElementById('startupError');
+  if(!box){box=document.createElement('div');box.id='startupError';box.style.cssText='position:fixed;inset:12px;z-index:99999;background:#fff;border:2px solid #b42318;border-radius:14px;padding:18px;color:#222;font:16px/1.5 -apple-system,BlinkMacSystemFont,sans-serif;overflow:auto';document.body.appendChild(box);}
+  var safe=String(message).replace(/[&<>]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;'}[c]});
+  box.innerHTML='<h2 style="color:#b42318">O aplicativo encontrou um erro</h2><p>A tela não carregou completamente. Confira se todos os arquivos do ZIP foram enviados para a raiz do repositório GitHub, substituindo os antigos.</p><p>Erro: '+safe+'</p><button onclick="location.reload()" style="padding:12px;border:0;border-radius:8px;background:#174c35;color:white">Tentar novamente</button>';
+ }
+ window.addEventListener('error',function(e){showError((e.message||'Erro de JavaScript')+' ('+(e.filename||'')+':'+(e.lineno||'')+')');});
+ window.addEventListener('unhandledrejection',function(e){showError(e.reason&&e.reason.message?e.reason.message:e.reason||'Falha ao carregar');});
+})();
+</script>
+<script src="app.js?v=20261103correcao-tela-branca1"></script>
+<script src="modulos.js?v=20261103correcao-tela-branca1"></script>
+<script src="menu.js?v=20261103correcao-tela-branca1"></script>
+</body></html>

@@ -1,4 +1,4 @@
-const CACHE = 'agro-operacoes-v16-registro-completo-20261103';
+const CACHE = 'agro-operacoes-v17-correcao-tela-branca-20261103';
 const CORE = ['./','./index.html','./style.css','./app.js','./modulos.js','./menu.js','./manifest.json'];
 self.addEventListener('install', event => event.waitUntil((async()=>{
   const cache = await caches.open(CACHE);
@@ -21,7 +21,7 @@ self.addEventListener('fetch', event => {
       if(response && response.ok && (url.pathname.endsWith('.js')||url.pathname.endsWith('.css')||url.pathname.endsWith('.html')||url.pathname.endsWith('/'))) await cache.put(event.request,response.clone());
       return response;
     } catch(error) {
-      const cached=await cache.match(event.request) || await cache.match(url.pathname);
+      const cleanUrl=new URL(event.request.url); cleanUrl.search=''; const cached=await cache.match(event.request) || await cache.match(cleanUrl.href) || await cache.match(url.pathname) || await cache.match('./index.html');
       if(cached) return cached;
       if(event.request.mode==='navigate') return (await cache.match('./index.html')) || Response.error();
       return Response.error();

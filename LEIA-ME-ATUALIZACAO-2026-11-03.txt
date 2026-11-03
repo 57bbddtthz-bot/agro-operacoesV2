@@ -1,0 +1,21 @@
+AGRO OPERAÇÕES — Atualização 03/11/2026
+
+Novidades:
+- OS agora permite registrar hora inicial e final da aplicação.
+- Coordenadas da lavoura e coordenadas do local da aplicação.
+- Temperatura inicial/final.
+- Velocidade do vento inicial/final.
+- Umidade relativa do ar inicial/final.
+- pH da calda.
+- Sentido da aplicação e sentido/direção do vento.
+- Os dados ambientais ficam salvos na OS e aparecem nos detalhes da OS.
+- Cadastro de talhões agora oferece edição de nome/código, área, fazenda e sede.
+- Mantidos os recursos de catálogo de nomes de produtos e doses específicas por OS.
+
+Como atualizar no GitHub Pages:
+1. Faça uma cópia/backup dos dados pelo menu Backup antes de atualizar.
+2. Extraia este ZIP.
+3. Envie/substitua os arquivos do aplicativo no repositório GitHub, mantendo os arquivos na raiz do site.
+4. Aguarde o GitHub Pages publicar e recarregue o site. Se estiver instalado no iPhone, feche e abra novamente o app.
+
+Observação: os dados do protótipo ficam no armazenamento local do aparelho. Faça backup antes de substituir arquivos ou limpar dados.

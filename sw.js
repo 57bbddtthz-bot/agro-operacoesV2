@@ -1,4 +1,4 @@
-const CACHE = 'agro-operacoes-v15-voo-automatico-20261103';
+const CACHE = 'agro-operacoes-v16-registro-completo-20261103';
 const CORE = ['./','./index.html','./style.css','./app.js','./modulos.js','./menu.js','./manifest.json'];
 self.addEventListener('install', event => event.waitUntil((async()=>{
   const cache = await caches.open(CACHE);

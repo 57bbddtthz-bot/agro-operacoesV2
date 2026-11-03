@@ -1,4 +1,4 @@
-const CACHE = 'agro-operacoes-v19-painel-os-vento-voos-20261103';
+const CACHE = 'agro-operacoes-v21-intervalo-climatico-os-20261103';
 const CORE = ['./','./index.html','./style.css','./app.js','./modulos.js','./menu.js','./manifest.json'];
 self.addEventListener('install', event => event.waitUntil((async()=>{
   const cache = await caches.open(CACHE);

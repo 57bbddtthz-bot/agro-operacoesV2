@@ -1,0 +1,10 @@
+AGRO OPERAÇÕES — intervalo por condição climática
+
+Na tela Nova OS / Editar OS, dentro de Dados da aplicação nesta OS, foram adicionados:
+- Houve intervalo climático? Sim/Não
+- Motivo: vento acima do limite, chuva, umidade, temperatura, condição variável ou outro
+- Hora de início do intervalo
+- Hora de retorno à aplicação
+- Observações
+
+Os dados são salvos na própria OS e aparecem nos detalhes da OS. Para atualizar o site, envie os arquivos deste ZIP ao repositório GitHub Pages.

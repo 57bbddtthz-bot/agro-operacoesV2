@@ -1,0 +1,7 @@
+AGRO OPERAÇÕES — CAMPOS DIRETAMENTE NA OS
+
+Na tela de Nova OS / Editar OS, a seção Dados da aplicação nesta OS permite registrar: coordenadas da lavoura/talhão; coordenadas da aplicação; hora inicial e final; temperatura inicial e final; vento inicial e final em km/h; umidade inicial e final; pH da calda; sentido da aplicação (predefinido); direção do vento inicial e final (N, NE, E, SE, S, SO, O, NO, variável ou calmo).
+
+Os campos são salvos na própria OS e aparecem em Abrir detalhes. Para OS antigas, os campos ficam em branco até serem preenchidos na edição.
+
+Para publicar: extraia o ZIP e envie/substitua os arquivos no repositório GitHub Pages. O ZIP não publica sozinho o site.
